@@ -24,7 +24,7 @@ server = ServerProxy("http://%s:%s@%s:%s" % (FS_USERNAME,
 
 def getCdr():
   try:
-    conn = psycopg2.connect("dbname='fusionpbx' user='serverdensity' host='localhost' password='n9TNBK9vpY8wgKwD'")
+    conn = psycopg2.connect("dbname='fusionpbx' user='serverdensity' host='localhost' password='supersecret'")
   except:
     print "I am unable to connect to the database"
 
