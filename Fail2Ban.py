@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# NOTE: To run the fail2ban-client, sd-agent needs access   #
+# to /var/run/fail2ban/fail2ban.sock. I configured below:   #
+# setfacl -m u:sd-agent:rwx /var/run/fail2ban/fail2ban.sock #
+
 import commands
 
 #jail_count = 0
